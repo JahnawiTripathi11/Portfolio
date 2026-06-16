@@ -649,7 +649,7 @@ export default function Hero() {
             </OrbitRing>
             <AvatarFrame>
               <Image
-                src="/images/jahnawi.jpeg"
+                src="/images/Jahnawi.jpeg"
                 alt="Jahnawi Tripathi"
                 fill
                 style={{ objectFit: 'cover', objectPosition: 'center top' }}
