@@ -5,7 +5,7 @@ import { useLanguage } from '@/context/LanguageContext';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Image from 'next/image';
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -648,14 +648,17 @@ export default function Hero() {
               <OrbitDot $color="#00BCD4" $bottom="10%" $left="0" />
             </OrbitRing>
             <AvatarFrame>
-              <Image
-                src="/images/jahnawi.jpeg"
-                alt="Jahnawi Tripathi"
-                fill
-                style={{ objectFit: 'cover', objectPosition: 'center top' }}
-                priority
-              />
-            </AvatarFrame>
+  <img
+    src="/images/jahnawi.jpeg"
+    alt="Jahnawi Tripathi"
+    style={{ 
+      width: '100%', 
+      height: '100%', 
+      objectFit: 'cover', 
+      objectPosition: 'center top' 
+    }}
+  />
+</AvatarFrame>
           </AvatarWrapper>
         </AvatarColumn>
       </HeroContainer>

@@ -8,11 +8,11 @@ const nextConfig = {
   // Remove the X-Powered-By: Next.js response header (minor security + bandwidth)
   poweredByHeader: false,
   images: {
-    // Serve next-gen formats: browsers get AVIF or WebP automatically
     formats: ['image/avif', 'image/webp'],
-    // Allow local /public images to be optimized by next/image
     remotePatterns: [],
-  },
+    unoptimized: false,
+    dangerouslyAllowSVG: true,
+},
 };
 
 export default nextConfig;
