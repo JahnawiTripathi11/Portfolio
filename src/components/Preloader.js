@@ -220,7 +220,7 @@ export default function Preloader() {
   </defs>
   
   <image
-    href="/images/jtlogo.jpeg"
+    href="/images/JTlogo.jpeg"
     x="585"
     y="390"
     width="200"

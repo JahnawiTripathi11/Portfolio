@@ -235,7 +235,7 @@ export default function About() {
 
     // LOAD EXPERT PHOTO AS PNG
     const textureLoader = new THREE.TextureLoader();
-    const photoTexture = textureLoader.load('/jahnawi.jpeg');
+    const photoTexture = textureLoader.load('/Jahnawi.jpeg');
 
     const mats = {
       wood: new THREE.MeshStandardMaterial({ color: 0x5c4033, roughness: 0.8, name: "wood" }),
